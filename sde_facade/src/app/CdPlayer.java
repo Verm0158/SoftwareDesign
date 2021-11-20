@@ -19,6 +19,11 @@ public class CdPlayer {
         System.out.println(description + " off");
     }
 
+    public void insert() {
+        title = null;
+        System.out.println(description + " insert");
+    }
+
     public void eject() {
         title = null;
         System.out.println(description + " eject");

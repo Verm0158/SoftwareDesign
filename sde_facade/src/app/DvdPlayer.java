@@ -19,6 +19,11 @@ public class DvdPlayer {
         System.out.println(description + " off");
     }
 
+    public void inject() {
+        movie = null;
+        System.out.println(description + " inject");
+    }
+
     public void eject() {
         movie = null;
         System.out.println(description + " eject");
